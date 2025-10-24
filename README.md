@@ -21,11 +21,11 @@
 
 ## 🎬 Demo
 
-📺 **[Video Demo](./demo.mp4)** - Watch the complete setup and SDK showcase
+📺 **Video Demo**: The file `demo.mp4` in this repository contains a complete demonstration. Download it to watch the full walkthrough.
 
-🌐 **Live Deployments:**
-- Next.js Demo: [https://fhevm-nextjs-demo.vercel.app](https://fhevm-nextjs-demo.vercel.app)
-- Anonymous Reporting: [https://anonymous-reporting.vercel.app](https://anonymous-reporting.vercel.app)
+**Note**: The video cannot be viewed directly in browser. Please download `demo.mp4` from the repository.
+
+🌐 **Live Example**: [FHE Anonymous Reporting System](https://fhe-reporting.vercel.app/)
 
 ---
 
@@ -204,8 +204,6 @@ const result = await callContractFunction(contract, 'functionName', [args]);
 npm run dev:nextjs
 ```
 
-**Deployment:** [https://fhevm-nextjs-demo.vercel.app](https://fhevm-nextjs-demo.vercel.app)
-
 ### 2. Anonymous Reporting (`examples/anonymous-reporting/`)
 
 **Complete privacy-preserving whistleblowing dApp:**
@@ -215,6 +213,10 @@ npm run dev:nextjs
 - Report submission with encrypted data
 - Decryption for authorized investigators
 - Full deployment on Sepolia
+
+**Live Demo**: [https://fhe-reporting.vercel.app/](https://fhe-reporting.vercel.app/)
+
+**GitHub**: [https://github.com/DamionHane/FHEReporting](https://github.com/DamionHane/FHEReporting)
 
 **Key SDK Usage:**
 
@@ -295,8 +297,6 @@ npm run dev
 ### Core Documentation
 
 - **[Getting Started](./docs/getting-started.md)** - Installation and first steps
-- **[API Reference](./docs/api-reference.md)** - Complete API documentation
-- **[Examples Guide](./docs/examples.md)** - Detailed example walkthroughs
 - **[SDK README](./packages/fhevm-sdk/README.md)** - SDK package documentation
 
 ### Quick Links
@@ -440,7 +440,6 @@ Developers only install **one package**: `@fhevm-template/sdk`
 - [x] **Clear Documentation**
   - [x] README with quick setup
   - [x] SDK documentation
-  - [x] API reference
   - [x] Code examples throughout
 
 - [x] **Developer-Friendly CLI**
@@ -477,7 +476,6 @@ Developers only install **one package**: `@fhevm-template/sdk`
 
 - ✅ Detailed README with quick start
 - ✅ SDK package documentation
-- ✅ API reference
 - ✅ Multiple code examples
 - ✅ Clear comments in code
 
@@ -501,6 +499,8 @@ See `demo.mp4` for a complete walkthrough covering:
 5. **Contract Interaction** - Submitting encrypted data
 6. **Multiple Examples** - Different use cases
 7. **Design Decisions** - Architecture and philosophy
+
+**Note**: Download the `demo.mp4` file to watch. The video cannot be viewed directly in browser.
 
 ---
 
@@ -539,8 +539,9 @@ This SDK is built for the **Zama FHE Challenge** to make FHEVM development acces
 
 ## 📞 Support
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/YOUR_USERNAME/fhevm-react-template/issues)
-- **Discussions**: [Community discussions](https://github.com/YOUR_USERNAME/fhevm-react-template/discussions)
+- **GitHub Repository**: [https://github.com/DamionHane/fhevm-react-template](https://github.com/DamionHane/fhevm-react-template)
+- **Example Demo**: [https://fhe-reporting.vercel.app/](https://fhe-reporting.vercel.app/)
+- **Example Repository**: [https://github.com/DamionHane/FHEReporting](https://github.com/DamionHane/FHEReporting)
 - **Zama Discord**: [Join Zama community](https://discord.gg/zama)
 
 ---
@@ -551,6 +552,6 @@ This SDK is built for the **Zama FHE Challenge** to make FHEVM development acces
 
 *Built with Zama FHEVM for the FHE Challenge*
 
-[Documentation](./docs/) • [Examples](./examples/) • [Video Demo](./demo.mp4)
+[Example Demo](https://fhe-reporting.vercel.app/) • [GitHub](https://github.com/DamionHane/fhevm-react-template) • [Video Demo demo.mp4]
 
 </div>
